@@ -55,6 +55,16 @@ const Header = () => {
               Projects
             </Link>
             <Link 
+              to="/events" 
+              className={`transition-colors font-medium ${
+                isActive('/events') 
+                  ? 'text-purple-600' 
+                  : 'text-gray-700 hover:text-purple-600'
+              }`}
+            >
+              Events
+            </Link>
+            <Link 
               to="/community" 
               className={`transition-colors font-medium ${
                 isActive('/community') 
@@ -140,6 +150,17 @@ const Header = () => {
                 onClick={closeMenu}
               >
                 Projects
+              </Link>
+              <Link 
+                to="/events" 
+                className={`block text-lg font-medium py-2 ${
+                  isActive('/events') 
+                    ? 'text-purple-600' 
+                    : 'text-gray-700 hover:text-purple-600'
+                }`}
+                onClick={closeMenu}
+              >
+                Events
               </Link>
               <Link 
                 to="/community" 

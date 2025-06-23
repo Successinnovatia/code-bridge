@@ -12,6 +12,8 @@ import MentorshipPage from './pages/MentorshipPage';
 import SignUpPage from './pages/SignUpPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import EventsPage from './pages/EventsPage';
+import EventRegisterPage from './pages/EventRegisterPage';
 import FAQPage from './pages/FAQPage';
 import SuccessPage from './pages/SuccessPage';
 import AboutPage from './pages/AboutPage';
@@ -32,6 +34,8 @@ function App() {
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:projectId" element={<ProjectDetailPage />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/events/:eventId/register" element={<EventRegisterPage />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/about" element={<AboutPage />} />
