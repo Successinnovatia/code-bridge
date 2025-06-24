@@ -34,21 +34,21 @@ const AboutPage = () => {
 
   const teamMembers = [
     {
-      name: 'Sarah Martinez',
+      name: 'Oluwasemilore Emmanuel',
       role: 'Founder & CEO',
       bio: 'Former teacher who transitioned to tech at 35. Passionate about making programming accessible to everyone.',
-      image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
-      funFact: 'Started coding to help her students build a school website',
+      image: './images/ceo-image.jpeg',
+      funFact: 'Started coding to help his students build a school website',
       social: {
         linkedin: '#',
         twitter: '#'
       }
     },
     {
-      name: 'David Chen',
+      name: 'David Bosah',
       role: 'Head of Curriculum',
       bio: 'Senior software engineer with 10+ years experience. Believes in learning through building real projects.',
-      image: 'https://images.pexels.com/photos/2741701/pexels-photo-2741701.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/low-angle-handsome-smiley-man_23-2148803594.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       funFact: 'Has mentored over 200 career changers into tech',
       social: {
         linkedin: '#',
@@ -56,10 +56,10 @@ const AboutPage = () => {
       }
     },
     {
-      name: 'Maria Rodriguez',
+      name: 'Amina Bello',
       role: 'Community Manager',
       bio: 'Psychology background with expertise in building supportive learning communities. CodeBridge graduate herself!',
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/smiley-african-woman-wearing-traditional-accessories_23-2148747966.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       funFact: 'Organizes virtual coffee chats that have led to 50+ friendships',
       social: {
         linkedin: '#',
@@ -70,7 +70,7 @@ const AboutPage = () => {
       name: 'James Wilson',
       role: 'Lead Developer',
       bio: 'Full-stack developer who loves creating intuitive learning experiences. Former bootcamp graduate.',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/african-american-man-wearing-stylish-hat_23-2148634061.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       funFact: 'Built the entire CodeBridge platform while learning React',
       social: {
         github: '#',
@@ -78,20 +78,20 @@ const AboutPage = () => {
       }
     },
     {
-      name: 'Lisa Park',
+      name: 'Amanda James',
       role: 'Student Success Coordinator',
       bio: 'Dedicated to ensuring every learner feels supported. Tracks progress and celebrates every milestone.',
-      image: 'https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/smiley-african-woman-with-golden-earrings_23-2148747979.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       funFact: 'Personally congratulates every student who completes their first project',
       social: {
         linkedin: '#'
       }
     },
     {
-      name: 'Alex Thompson',
+      name: 'Alex Bamidele',
       role: 'Mentor Coordinator',
       bio: 'Connects learners with the perfect mentors. Former career changer who understands the journey.',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/portrait-smiley-man-sitting_23-2148854430.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       funFact: 'Has made over 1,000 successful mentor-student matches',
       social: {
         linkedin: '#',

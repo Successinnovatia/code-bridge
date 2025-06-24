@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, MapPin, Clock, Users, CheckCircle, X } from 'lucide-react';
+import { getFutureDate } from '../utils/generateEventDate';
 
 const EventRegisterPage = () => {
   const { eventId } = useParams();
@@ -15,7 +16,7 @@ const EventRegisterPage = () => {
   const events: { [key: string]: any } = {
     'intro-to-web-development': {
       title: 'Introduction to Web Development Workshop',
-      date: '2025-02-15',
+      date: getFutureDate(5),
       time: '2:00 PM - 4:00 PM EST',
       location: 'Virtual (Zoom)',
       category: 'workshop',
@@ -37,7 +38,7 @@ const EventRegisterPage = () => {
     },
     'career-change-panel': {
       title: 'Career Change Success Stories Panel',
-      date: '2025-02-20',
+      date: getFutureDate(8),
       time: '7:00 PM - 8:30 PM EST',
       location: 'Virtual (Discord)',
       category: 'career',
@@ -59,7 +60,7 @@ const EventRegisterPage = () => {
     },
     'react-fundamentals-workshop': {
       title: 'React Fundamentals Deep Dive',
-      date: '2025-02-25',
+      date:  getFutureDate(10),
       time: '1:00 PM - 5:00 PM EST',
       location: 'Virtual (Zoom)',
       category: 'workshop',
@@ -81,7 +82,7 @@ const EventRegisterPage = () => {
     },
     'networking-coffee-chat': {
       title: 'Virtual Coffee Chat & Networking',
-      date: '2025-03-01',
+      date: getFutureDate(15),
       time: '10:00 AM - 11:00 AM EST',
       location: 'Virtual (Discord)',
       category: 'networking',
@@ -103,7 +104,7 @@ const EventRegisterPage = () => {
     },
     'data-science-bootcamp': {
       title: 'Data Science Bootcamp Preview',
-      date: '2025-03-05',
+      date: getFutureDate(24),
       time: '6:00 PM - 8:00 PM EST',
       location: 'Virtual (Zoom)',
       category: 'webinar',
@@ -125,7 +126,7 @@ const EventRegisterPage = () => {
     },
     'interview-prep-session': {
       title: 'Technical Interview Preparation',
-      date: '2025-03-10',
+      date: getFutureDate(26),
       time: '3:00 PM - 5:00 PM EST',
       location: 'Virtual (Zoom)',
       category: 'career',

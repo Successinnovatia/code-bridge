@@ -11,21 +11,21 @@ const Community = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Chen',
+      name: 'Sarah Aigbe',
       role: 'Former Teacher → Software Engineer',
-      image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://img.freepik.com/free-photo/smiley-businesswoman-working-laptop_23-2148816808.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       quote: 'At 45, I thought it was too late to change careers. CodeBridge proved me wrong. The mentorship and community support were incredible.'
     },
     {
       name: 'Marcus Johnson',
       role: 'Retail Manager → Full Stack Developer',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://img.freepik.com/premium-photo/portrait-man-sunglasses_1048944-1828780.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       quote: 'Starting with zero coding experience was scary, but my study group became like family. We all got jobs within 8 months!'
     },
     {
-      name: 'Maria Rodriguez',
+      name: 'Anna Peters',
       role: 'Stay-at-home Mom → Mobile Developer',
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://img.freepik.com/free-photo/woman-with-laptop-home_1157-45677.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       quote: 'The flexible learning schedule let me study while caring for my kids. My mentor helped me build confidence I never knew I had.'
     }
   ];

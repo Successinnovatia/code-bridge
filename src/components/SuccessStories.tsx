@@ -10,7 +10,7 @@ const SuccessStories = () => {
       currentJob: 'Frontend Developer at TechCorp',
       timeline: '8 months',
       location: 'Austin, TX',
-      image: 'https://images.pexels.com/photos/2741701/pexels-photo-2741701.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+      image: 'https://img.freepik.com/free-photo/african-american-young-man-colorful-shirt-looking-camera-with-serious-confident-expression-standing-white-background_141793-118908.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_items_boosted&w=740',
       story: 'After 25 years in construction, an injury forced me to reconsider my career. CodeBridge gave me the structure and support I needed to completely change my life.',
       path: 'Web Development'
     },
